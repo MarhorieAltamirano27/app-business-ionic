@@ -18,16 +18,16 @@ const ListOfWishes: React.FC = () => {
 
       {/*CUERPO*/}
       <IonContent fullscreen color = "light" >
-        <div className="wishlist-header" style={{ backgroundImage: `url("../assets/img/header.jpg")` }}>
+        <div className="wishlist-header" style={{ backgroundImage: `url("../assets/img/headder.jpg")` }}>
           <IonText className="wishlist-count">1 Artículo</IonText>           
           </div>
 
          {/*Producto en la lista*/}
-          <IonCard className="wishlist-card">
+          <IonCard className="wishlist-card" style={{ margin: '0 16px', borderRadius: '8px' }}>
             <IonGrid>
               <IonRow>
                 <IonCol size = "4">
-                  <IonImg src = {"../assets/img/imagen.png"}/>
+                  <IonImg src = {"../assets/img/imagenn.png"}/>
                 </IonCol>
                 <IonCol size = "8">
                   <IonCardContent>
