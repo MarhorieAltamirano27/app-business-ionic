@@ -7,7 +7,7 @@ const ListOfWishes: React.FC = () => {
   return (
     <IonPage>
         {/*CABECERA*/}
-        <IonHeader translucent>
+        <IonHeader translucent> 
             <IonToolbar color = "light">
                 <IonTitle>Carrito de compras</IonTitle>
                 <IonIcon icon = {personOutline} slot = "end" className = "ion-padding-end" />
