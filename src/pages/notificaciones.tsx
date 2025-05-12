@@ -23,7 +23,7 @@ const ListOfWishes: React.FC = () => {
             {/*Producto en la lista*/}
             <IonCard className="noti-card">
                 <IonGrid>
-                    <IonRow>
+                    <IonRow> 
                         <IonCol size = "4">
                             <IonImg src = {"../assets/img/imagenn.png"}/>
                         </IonCol>
