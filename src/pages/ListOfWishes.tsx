@@ -49,7 +49,7 @@ const ListOfWishes: React.FC = () => {
           </IonCard>
         </IonContent>
 
-        {/*MANÚ INFERIOR*/}
+        {/*MANÚ INFERIOR*/} 
         <IonFooter>
           <IonToolbar>
             <IonGrid>
